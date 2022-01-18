@@ -71,6 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
         filter: "grayscale(100%)",
       },
     });
+
+    qqq.restitution = 0.7
+
     World.add(engine.world, [qqq]);
   }
 
